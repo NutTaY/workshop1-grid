@@ -1,0 +1,83 @@
+.wrapper1 {
+    margin: 0 150px;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr;
+    gap: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo {
+    margin-right: 150px;
+
+}
+.search {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+}
+.searchbox {
+    height: 30px;
+    width: 250px;
+    border-radius: 12px;
+}
+.menu {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+}
+.wrapper2 {
+    margin: 20px 200px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.main {
+    display: grid;
+    grid-template-rows: 0.6fr 10fr;
+    gap: 15px;
+}
+.scrollbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    overflow: scroll;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: gainsboro;
+    padding: 15px;
+    height: fit-content;
+}
+.feed {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.card {
+    display: grid;
+    grid-template-rows: 0.7fr 5fr 0.7fr 0.7fr;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: gainsboro;
+}
+
+
+img {
+    border-radius: 100%;
+    width: 50px
+}
+.hero {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.suggestion {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap: 10px;
+}
